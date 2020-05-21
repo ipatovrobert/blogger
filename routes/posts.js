@@ -10,6 +10,5 @@ router.route('/')
 
 router.route('/:id')
     .get(getSinglePost)
-    .delete(protect, deletePost)
 
 module.exports = router;
