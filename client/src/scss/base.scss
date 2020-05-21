@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5% // Font size default 10px
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-s {
+    display: flex;
+    justify-content: space-between;
+}
+
+.minW50 {
+    min-width: 120rem;
+}
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+@import "layout/navbar";
+@import "layout/welcome";
+@import "layout/newPosts";
+@import "layout/discover";
+@import "layout/footer";
+@import "layout/posts";
+@import "layout/register";
+@import "layout/dashboard";

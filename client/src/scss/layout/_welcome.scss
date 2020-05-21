@@ -1,0 +1,40 @@
+.welcome {
+    margin-top: 25rem;
+    position: relative;
+
+    &-heading {
+        font-family: 'Vidaloka', 'sans-serif';
+        font-size: 5rem;
+    }
+
+    &-button {
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: bold;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #16817A;
+        border: 2px solid #16817A;
+        padding: 0.6rem 4rem;
+
+        display: inline-block;
+        margin-top: 3rem;
+        transition: .2s all;
+
+        &:hover {
+            color: #816492;
+            border: 2px solid #816492;
+        }
+    }
+}
+
+.books {
+    position: absolute;
+    right: -350px;
+    top: -100px;
+}
+
+.stair {
+    position: absolute;
+    left: -150px;
+    top: 350px;
+}

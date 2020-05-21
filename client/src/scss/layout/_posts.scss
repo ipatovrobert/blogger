@@ -1,0 +1,31 @@
+.posts {
+    margin-top: 15rem;
+
+    &-title {
+        font-family: 'Vidaloka', 'sans-serif';
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    &-body {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 1.6rem;
+    }
+
+    &-tags {
+        text-align: left;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #515151;
+
+        margin-top: 5rem;
+    }
+    
+    &-date {
+        text-align: left;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 1.6rem;
+        color: black;
+    }
+}

@@ -1,0 +1,28 @@
+.dashboard {
+    margin-top: 10rem;
+
+    &-title {
+        font-family: 'Vidaloka', 'sans-serif';
+        font-size: 3rem;
+    }
+
+    &-info {
+
+        &--title {
+            font-family: 'Vidaloka', 'sans-serif';
+            font-size: 2rem;
+            margin-top: 3rem;
+        }
+
+        &--titleS {
+            font-family: 'Roboto', 'sans-serif';
+            font-size: 1.6rem;
+            margin-bottom: 0.2rem;
+        }
+
+        &--text {
+            font-family: 'Roboto', 'sans-serif';
+            font-size: 1.6rem;
+        }
+    }
+}

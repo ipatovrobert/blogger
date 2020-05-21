@@ -1,0 +1,58 @@
+.newPosts {
+    margin-top: 60rem;
+
+    &-heading {
+        font-family: 'Vidaloka', 'sans-serif';
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    &-post {
+        border: 1px solid black;
+        padding: 2rem 3rem;
+
+        &--title {
+            font-family: 'Vidaloka', 'sans-serif';
+            font-size: 2rem;
+            display: inline-block;
+        }
+
+        &--author {
+            font-family: 'Vidaloka', 'sans-serif';
+            font-size: 1.6rem;
+            display: inline-block;
+            margin-left: auto;
+        }
+        
+        img {
+            margin-left: 1rem;
+        }
+
+        &--description {
+            font-family: 'Roboto', 'sans-serif';
+            font-size: 1.6rem;
+        }
+
+        &--link {
+            font-family: 'Vidaloka', 'sans-serif';
+            font-size: 1.6rem;
+            color: black;
+            text-decoration: none;
+        }
+
+        &--date {
+            font-family: 'Vidaloka', 'sans-serif';
+            font-size: 1.6rem;
+            color: #818181;
+
+        }
+    }
+}
+
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
